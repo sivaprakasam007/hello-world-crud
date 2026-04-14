@@ -7,9 +7,9 @@ public class MessageManagerTest {
     void testHelloWorldMessage() {
         MessageManager manager = new MessageManager();
 
-        manager.create(new Message(1, "Hi sivaprakasam"));
+        manager.create(new Message(1, "Bankai"));
 
-        assertEquals("Hi sivaprakasam", manager.readAll().get(0).getText());
+        assertEquals("Bankai", manager.readAll().get(0).getText());
     }
 
     @Test
